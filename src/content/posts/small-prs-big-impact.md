@@ -3,7 +3,6 @@ title: "Small PRs, Big Impact"
 description: Why keeping pull requests small is the highest-leverage habit for shipping faster.
 pubDatetime: 2026-04-15T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: The Rewrite Trap
 description: Why rewriting from scratch almost never works out the way you expect.
 pubDatetime: 2026-06-05T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

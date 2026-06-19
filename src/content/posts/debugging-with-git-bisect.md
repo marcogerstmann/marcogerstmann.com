@@ -3,7 +3,6 @@ title: Debugging with git bisect
 description: How binary search through your commit history can pinpoint exactly when a bug was introduced.
 pubDatetime: 2026-03-18T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: What I Look for in Code Review
 description: The mental checklist I run through when reviewing a pull request.
 pubDatetime: 2026-05-10T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

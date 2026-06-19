@@ -3,7 +3,6 @@ title: Understanding the Event Loop
 description: A mental model for how JavaScript schedules and executes asynchronous work.
 pubDatetime: 2026-01-10T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

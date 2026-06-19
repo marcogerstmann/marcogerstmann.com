@@ -3,7 +3,6 @@ title: Environment Variables Done Right
 description: Patterns for managing environment variables that scale from side projects to production systems.
 pubDatetime: 2026-05-22T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: "Release: v2.0"
 description: A major update with breaking changes.
 pubDatetime: 2026-03-15T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: true
 ---
 

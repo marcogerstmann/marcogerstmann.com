@@ -3,7 +3,6 @@ title: "Git Worktrees: The Most Underrated Feature"
 description: How git worktrees let you work on multiple branches simultaneously without stashing.
 pubDatetime: 2026-01-25T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: Why I Switched to Astro
 description: After years of React-based static site generators, Astro's content-first approach won me over.
 pubDatetime: 2026-02-08T00:00:00Z
 author: Marco Gerstmann
-featured: true
 draft: false
 ---
 

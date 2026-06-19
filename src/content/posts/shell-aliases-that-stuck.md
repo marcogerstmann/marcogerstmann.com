@@ -3,7 +3,6 @@ title: Shell Aliases That Actually Stuck
 description: The handful of shell aliases I've kept for years, and why most aliases don't survive.
 pubDatetime: 2026-04-28T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

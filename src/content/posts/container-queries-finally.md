@@ -3,7 +3,6 @@ title: Container Queries Are Finally Here
 description: After years of waiting, container queries are shipping in all major browsers — and they change how we think about responsive design.
 pubDatetime: 2026-04-02T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

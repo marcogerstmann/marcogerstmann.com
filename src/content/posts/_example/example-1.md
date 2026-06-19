@@ -3,7 +3,6 @@ title: "Release: v1.0"
 description: The first public release.
 pubDatetime: 2026-01-01T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: true
 ogImage: ./assets/example.png
 ---

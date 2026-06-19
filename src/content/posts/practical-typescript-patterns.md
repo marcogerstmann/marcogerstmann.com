@@ -3,7 +3,6 @@ title: Practical TypeScript Patterns I Use Daily
 description: A handful of TypeScript patterns that have earned their place in my everyday toolkit.
 pubDatetime: 2026-02-22T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

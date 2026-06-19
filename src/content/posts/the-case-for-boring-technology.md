@@ -3,7 +3,6 @@ title: The Case for Boring Technology
 description: Why choosing well-understood tools often beats chasing the newest framework.
 pubDatetime: 2026-03-05T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: false
 ---
 

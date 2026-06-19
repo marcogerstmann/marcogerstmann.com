@@ -3,7 +3,6 @@ title: "Release: v3.0"
 description: Performance and polish.
 pubDatetime: 2026-06-01T00:00:00Z
 author: Marco Gerstmann
-featured: false
 draft: true
 ---
 

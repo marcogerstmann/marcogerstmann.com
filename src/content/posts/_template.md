@@ -14,9 +14,6 @@ pubDatetime: 2026-06-12T00:00:00Z
 # Optional: overrides the global site.author from astro-paper.config.ts
 author: Marco Gerstmann
 
-# Optional: shows this post in the "Featured" section on the home page
-featured: false
-
 # When true, the post is built but never listed publicly — safe for WIP content
 draft: true
 
