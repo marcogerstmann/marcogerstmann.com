@@ -3,14 +3,10 @@ export interface UIStrings {
     home: string;
     posts: string;
     about: string;
-    archives: string;
   };
   post: {
     publishedAt: string;
     updatedAt: string;
-    sharePostIntro: string;
-    sharePostOn: string;
-    sharePostViaEmail: string;
     backToTop: string;
     goBack: string;
     editPage: string;
@@ -30,10 +26,6 @@ export interface UIStrings {
   pages: {
     postsTitle: string;
     postsDesc: string;
-
-    archivesTitle: string;
-    archivesDesc: string;
-
   };
   a11y: {
     skipToContent: string;

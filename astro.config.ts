@@ -23,10 +23,7 @@ export default defineConfig({
   site: config.site.url,
   integrations: [
     mdx(),
-    sitemap({
-      filter: page =>
-        config.features?.showArchives !== false || !page.endsWith("/archives/"),
-    }),
+    sitemap(),
   ],
   i18n: {
     locales: ["en"],

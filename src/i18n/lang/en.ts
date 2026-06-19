@@ -5,14 +5,10 @@ export default {
     home: "Home",
     posts: "Posts",
     about: "About",
-    archives: "Archives",
   },
   post: {
     publishedAt: "Published at",
     updatedAt: "Updated",
-    sharePostIntro: "Share this post:",
-    sharePostOn: "Share this post on {{platform}}",
-    sharePostViaEmail: "Share this post via email",
     backToTop: "Back to top",
     goBack: "Go back",
     editPage: "Edit page",
@@ -32,10 +28,6 @@ export default {
   pages: {
     postsTitle: "Posts",
     postsDesc: "All the articles I've posted.",
-
-    archivesTitle: "Archives",
-    archivesDesc: "All the articles I've archived.",
-
   },
   a11y: {
     skipToContent: "Skip to content",

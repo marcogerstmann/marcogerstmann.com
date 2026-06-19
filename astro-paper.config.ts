@@ -20,16 +20,11 @@ export default defineAstroPaperConfig({
   features: {
     lightAndDarkMode: true,
     dynamicOgImage: true,
-    showArchives: false,
     showBackButton: false,
     editPost: { enabled: false },
   },
   socials: [
     { name: "github",   url: "https://github.com/marcogerstmann" },
     { name: "linkedin", url: "https://www.linkedin.com/in/marcogerstmann" },
-  ],
-  shareLinks: [
-    { name: "x",        url: "https://x.com/intent/post?url=" },
-    { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
