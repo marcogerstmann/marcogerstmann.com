@@ -2,14 +2,33 @@
 import config from "@/config";
 import LinkButton from "./LinkButton.astro";
 
+type Props = {
+  showRss?: boolean;
+};
+
+const { showRss = false } = Astro.props;
 const { site, socials } = config;
 
 const icons = import.meta.glob<{
   default: (_props: Record<string, unknown>) => unknown;
 }>("/src/assets/icons/socials/*.svg");
 
+const socialEntries = socials.map(({ name, url, linkTitle }) => ({
+  name,
+  url,
+  linkTitle,
+}));
+
+if (showRss) {
+  socialEntries.push({
+    name: "rss",
+    url: `${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`,
+    linkTitle: "RSS Feed",
+  });
+}
+
 const items = await Promise.all(
-  socials.map(async ({ name, url, linkTitle }) => {
+  socialEntries.map(async ({ name, url, linkTitle }) => {
     const mod = await icons[`/src/assets/icons/socials/${name}.svg`]?.();
     const Icon = mod?.default;
     const title =
