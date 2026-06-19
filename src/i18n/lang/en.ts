@@ -29,10 +29,6 @@ export default {
     recentPosts: "Recent Posts",
     allPosts: "All Posts",
   },
-  footer: {
-    copyright: "Copyright",
-    allRightsReserved: "All rights reserved.",
-  },
   pages: {
     postsTitle: "Posts",
     postsDesc: "All the articles I've posted.",

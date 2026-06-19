@@ -27,10 +27,6 @@ export interface UIStrings {
     recentPosts: string;
     allPosts: string;
   };
-  footer: {
-    copyright: string;
-    allRightsReserved: string;
-  };
   pages: {
     postsTitle: string;
     postsDesc: string;
