@@ -1,12 +1,10 @@
 ---
 title: Hello, World
-description: A first post — and a template for future ones.
+description: A first post - and a template for future ones.
 pubDatetime: 2026-06-12T00:00:00Z
 author: Marco Gerstmann
 featured: false
 draft: false
-tags:
-  - meta
 ---
 
 Every developer's first program prints "Hello, World." It felt fitting to start this blog the same way.
