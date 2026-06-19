@@ -6,7 +6,6 @@ export default {
     posts: "Posts",
     about: "About",
     archives: "Archives",
-    search: "Search",
   },
   post: {
     publishedAt: "Published at",
@@ -41,16 +40,12 @@ export default {
     archivesTitle: "Archives",
     archivesDesc: "All the articles I've archived.",
 
-    searchTitle: "Search",
-    searchDesc: "Search any article ...",
   },
   a11y: {
     skipToContent: "Skip to content",
     openMenu: "Open menu",
     closeMenu: "Close menu",
     toggleTheme: "Toggle theme",
-    searchPlaceholder: "Search posts...",
-    noResults: "No results found",
     goToPreviousPage: "Go to previous page",
     goToNextPage: "Go to next page",
   },

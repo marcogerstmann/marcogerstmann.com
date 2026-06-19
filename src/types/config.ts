@@ -54,11 +54,6 @@ interface FeaturesConfig {
         url: string;
       }
     | { enabled: false };
-  /**
-   * Search provider. "pagefind" ships in the base template.
-   * Set to false to disable search entirely.
-   */
-  search?: "pagefind" | false;
 }
 
 interface SocialLink {
