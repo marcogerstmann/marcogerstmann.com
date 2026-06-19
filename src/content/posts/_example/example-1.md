@@ -5,8 +5,6 @@ pubDatetime: 2026-01-01T00:00:00Z
 author: Marco Gerstmann
 featured: false
 draft: true
-tags:
-  - releases
 ogImage: ./assets/example.png
 ---
 

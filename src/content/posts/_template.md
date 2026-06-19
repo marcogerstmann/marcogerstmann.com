@@ -20,10 +20,6 @@ featured: false
 # When true, the post is built but never listed publicly — safe for WIP content
 draft: true
 
-# Optional: array of topic tags; defaults to ["others"] if omitted
-tags:
-  - meta
-
 # Optional: custom OG image. Relative path from this file or absolute URL.
 # ogImage: ../../assets/images/example.png
 
