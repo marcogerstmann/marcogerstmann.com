@@ -31,6 +31,3 @@ public/pagefind
 
 # docker compose
 compose.override.yaml
-
-# wrangler
-.wrangler/
