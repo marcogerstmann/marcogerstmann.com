@@ -4,8 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://marcogerstmann.com",
     title: "Marco Gerstmann",
-    description:
-      "Backend engineer writing about distributed systems, event-driven architecture, and Go. Based in Mallorca, Spain.",
+    description: "Backend engineer writing about distributed systems. Based in Mallorca, Spain.",
     author: "Marco Gerstmann",
     ogImage: "default-og.jpg",
     lang: "en",
