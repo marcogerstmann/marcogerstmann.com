@@ -1,6 +1,6 @@
 ---
 title: 'Not Every Error Deserves a Retry: Permanent vs. Transient Failures in Event-Driven Systems'
-description: 'How to distinguish permanent from transient errors in an SQS-based system, route poison messages to a dead-letter queue early, and keep the rest of your batch processing smoothly. A practical walkthrough in Go'
+description: 'How to distinguish permanent from transient errors in an SQS-based system, route poison messages to a dead-letter queue early, and keep the rest of your batch processing smoothly. A practical walkthrough in Go.'
 pubDatetime: 2026-06-22T08:00:00Z
 author: Marco Gerstmann
 draft: false
