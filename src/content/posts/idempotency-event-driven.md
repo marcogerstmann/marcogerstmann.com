@@ -1,7 +1,7 @@
 ---
 title: 'Your Queue Will Deliver That Message Twice. Be Ready.'
 description: 'A three-layer approach to idempotent message processing in Go, using content-derived keys, conditional writes, and short-circuit logic to handle duplicate deliveries without wasting compute.'
-pubDatetime: 2026-06-23T08:00:00Z
+pubDatetime: 2026-06-23T06:00:00Z
 author: Marco Gerstmann
 draft: false
 ---
