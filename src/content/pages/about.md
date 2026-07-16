@@ -11,7 +11,7 @@ I'm Marco, a backend engineer living in Mallorca. Originally from northern Germa
 
 ## What I do
 
-I'm currently a Software Engineer at Shinefour, where I design and build an event-driven integration platform that unifies REST, webhook, gRPC, and WebSocket-based third-party integrations behind a NATS messaging layer. Day to day, that means working with Go, Kafka, microservices, and figuring out how to make complex systems play nicely together.
+I'm currently a Software Engineer at Shinefour, where I design and build an event-driven integration platform that unifies REST, webhook, gRPC, and WebSocket-based third-party integrations behind a NATS messaging layer. Day to day, that means working with Java, Go, Kafka, microservices, and figuring out how to make complex systems play nicely together.
 
 My sweet spot is backend and distributed systems, including event-driven architectures, CDC pipelines, API design, and infrastructure with tools like AWS, Kubernetes, Terraform, and Docker.
 
