@@ -73,22 +73,22 @@ package rather than next to the AWS code:
 type EventType string
 
 const (
-InsightCreated      EventType = "InsightCreated"
-InsightEnriched     EventType = "InsightEnriched"
-KnowledgeUpdated    EventType = "KnowledgeUpdated"
-WeeklyPlanRequested EventType = "WeeklyPlanRequested"
+  InsightCreated      EventType = "InsightCreated"
+  InsightEnriched     EventType = "InsightEnriched"
+  KnowledgeUpdated    EventType = "KnowledgeUpdated"
+  WeeklyPlanRequested EventType = "WeeklyPlanRequested"
 )
 
 // DomainEvent is the versioned envelope for "something happened" in the
 // domain. It carries no AWS/transport concepts; adapters translate it to
 // whatever wire format a subscriber needs.
 type DomainEvent struct {
-EventID    string    `json:"event_id"`
-EventType  EventType `json:"event_type"`
-Version    int       `json:"version"`
-TenantID   string    `json:"tenant_id"`
-OccurredAt time.Time `json:"occurred_at"`
-Payload    any       `json:"payload"`
+  EventID    string    `json:"event_id"`
+  EventType  EventType `json:"event_type"`
+  Version    int       `json:"version"`
+  TenantID   string    `json:"tenant_id"`
+  OccurredAt time.Time `json:"occurred_at"`
+  Payload    any       `json:"payload"`
 }
 ```
 
@@ -105,8 +105,8 @@ The `EventID` is derived, not random:
 
 ```go
 func deterministicEventID(eventType EventType, subjectID string) string {
-sum := sha256.Sum256([]byte(string(eventType) + "|" + subjectID))
-return hex.EncodeToString(sum[:])
+  sum := sha256.Sum256([]byte(string(eventType) + "|" + subjectID))
+  return hex.EncodeToString(sum[:])
 }
 ```
 
@@ -124,14 +124,14 @@ ports:
 ```go
 // Raw bytes onto a work queue, for pipeline orchestration.
 type EventPublisher interface {
-Publish(ctx context.Context, msg PublishMessage) error
+  Publish(ctx context.Context, msg PublishMessage) error
 }
 
 // DomainEventPublisher announces a typed domain fact. Unlike EventPublisher
 // (raw bytes on a work queue, for pipeline orchestration), this is for
 // domain events that other bounded contexts subscribe to.
 type DomainEventPublisher interface {
-Publish(ctx context.Context, event domain.DomainEvent) error
+  Publish(ctx context.Context, event domain.DomainEvent) error
 }
 ```
 
@@ -183,8 +183,8 @@ One decision I would defend hard: the events carry almost nothing.
 
 ```go
 type InsightCreatedPayload struct {
-InsightID string `json:"insight_id"`
-Source    string `json:"source"`
+  InsightID string `json:"insight_id"`
+  Source    string `json:"source"`
 }
 ```
 
